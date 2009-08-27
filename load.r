@@ -1,6 +1,6 @@
-# source("gui-load.r")
+# l(mutatr)
+# source("~/documents/oo/mutatr-gui/gui-load.r", chdir = T)
 library(gWidgets)
-source("object-inheritance.r")
 
 # TO DO
 #   * checkbox
@@ -17,14 +17,15 @@ source("object-inheritance.r")
 #   * table
 #   * text
 #   * tree
-source("gui-widget.r")
-source("gui-window.r")
-source("gui-button.r")
-source("gui-group.r")
-source("gui-label.r")
-source("gui-status-bar.r")
-source("gui-combobox.r")
-source("gui-checkbox.r")
+source("R/gui-widget.r")
+
+source("R/gui-window.r")
+source("R/gui-button.r")
+source("R/gui-group.r")
+source("R/gui-label.r")
+source("R/gui-status-bar.r")
+source("R/gui-combobox.r")
+source("R/gui-checkbox.r")
 
 # Advantages:
 #   * don't have to worry about polluting global namespace
