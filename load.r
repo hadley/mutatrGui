@@ -33,6 +33,8 @@ source("R/gui-checkbox.r")
 #   * indenting matches gui hierarchy
 #   * can use lexical scoping for private/local functions/variables
 
+if(exists("w2")) try(w2$close())
+
 w2 <- Window$clone()$do({
   self$status <- StatusBar$clone()
   self$title <- "Hello"
