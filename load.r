@@ -1,5 +1,5 @@
 # l(mutatr)
-# source("~/documents/oo/mutatr-gui/gui-load.r", chdir = T)
+# source("~/documents/oo/mutatrGui/load.r", chdir = T)
 library(gWidgets)
 
 # TO DO

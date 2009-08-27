@@ -1,5 +1,3 @@
-source("gui-widget.r")
-
 Window <- Widget$clone()$do({
     
   self$build_widget <- function() {
